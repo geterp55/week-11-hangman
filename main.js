@@ -23,11 +23,60 @@ var objKeys = Object.keys(getDessert);
 var rand = objKeys[Math.floor(Math.random() * objKeys.length)];
 // console.log(rand);
 
+
 //--------------------------------------------------------------------
 //Split current word<this works>
-console.log(rand.split(''));
+// console.log(rand.split(''));
+
+var randomWord = (rand.split(''));
+console.log(randomWord);
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+
+//'Prompt' user to 'guess words'
 
 
+
+
+
+
+//each character of currentWord needs to be set to characters
+
+
+
+//set var randomWord = to guessed letters entered
+
+// var inquirer = require('inquirer');
+// var prompt = require('prompt');
+
+// prompt.get[guessLetter];
+
+// var getFromScreen = process.argv[2];
+
+// function createLetter(name) {
+// 		this.name = letter;
+// 		this.printInfo = function() {
+// 		console.log("Letter: " + this.name);
+// 		}
+// 	}
+
+// 		var askQuestion = function() {
+
+// 		inquirer.prompt([{
+// 			name: "letter",
+// 			message: "Guess a letter?"
+// 			type: "text",
+// 		}]).then(function(answers) {
+// 			var newLetter = new Letter(answers.name);
+// 			newLetter.printInfo();		
+// 		})
+// }
+// console.log("Guessed this letter: " + getFromScreen);
+
+
+
+//Constructors with Prompts for guessing letters
 
 
 
